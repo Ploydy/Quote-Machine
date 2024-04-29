@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 100px
+}
+
+#text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 2em;
+  padding: 30px;
+}
+
+#author {
+  font-size: 1em;
+  margin: 100px 35px 0 0;
+}
+
+#tweet-quote {
+  color: white;
+  text-decoration: none;
+}
+
+a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.ploydy {
+  color: black;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ploydyy {
+  text-decoration: none;
 }
